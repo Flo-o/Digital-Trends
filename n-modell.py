@@ -24,7 +24,7 @@ def get_continuous_chunks(text):
 
     return continuous_chunk
 
-with open('C:\PythonProjects\Digiarc\s12.txt', 'r') as file:
+with open('C:\PythonProjects\Digiarc\songtexte.txt', 'r') as file:
     songs = file.read()
    
 

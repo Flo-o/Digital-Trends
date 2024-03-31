@@ -6,7 +6,7 @@ import pandas as pd
 # Laden des Spacy-Modell
 nlp = spacy.load('en_core_web_md')
 
-with open('C:\PythonProjects\Digiarc\s12.txt', 'r') as file:
+with open('C:\PythonProjects\Digiarc\songtexte.txt', 'r') as file:
     songs = file.read()
 
 # Anwendung des Models

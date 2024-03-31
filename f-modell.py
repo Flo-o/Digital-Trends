@@ -6,7 +6,7 @@ import pandas as pd
 # Laden des vortrainierten Modell
 tagger = SequenceTagger.load('ner')
 
-with open('C:\PythonProjects\Digiarc\s12.txt', 'r') as file:
+with open('C:\PythonProjects\Digiarc\songtexte.txt', 'r') as file:
     songs = file.read()
 
 # Sentence Objekt erstellen

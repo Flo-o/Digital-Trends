@@ -4,7 +4,7 @@ from spacy.lang.en.stop_words import STOP_WORDS
 import pandas as pd
 
 # Laden des Spacy-Modell
-nlp = spacy.load('en_core_web_lg')
+nlp = spacy.load('en_core_web_md')
 
 with open('C:\PythonProjects\Digiarc\s12.txt', 'r') as file:
     songs = file.read()
